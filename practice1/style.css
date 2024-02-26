@@ -1,0 +1,33 @@
+/* dusri file me aake css ke code likh rahe hai means we are applying external css */
+
+#box{
+    color:rgb(239, 132, 232);
+    background-color: beige;
+}
+
+h1,h2,h3{
+    color:coral
+}
+
+.heading{
+    color:lightblue; /* finally neeche wale ki hi preference hogi isliye lightblue color hi show hoga */
+}
+
+#text1{
+    color:darkcyan;
+}
+
+button{
+    border: 2px solid black;
+    background-color: #faebd7;
+}
+
+
+ 
+
+
+
+
+
+
+

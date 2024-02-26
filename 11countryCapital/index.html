@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Country Capitals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="box">
+    
+    <h1>Country Capitals</h1>
+    <label for="countrySelect">Select a country:</label>
+    <select id="countrySelect">
+        <option value="USA">United States</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">United Kingdom</option>
+        <option value="France">France</option>
+        <option value="Germany">Germany</option>
+    </select>
+
+    <div>
+        <p>Capital: <span id="capital"></span></p>
+    </div>
+    </div>
+
+    <script>
+        // Get references to the select element and the capital span
+        const countrySelect = document.getElementById('countrySelect');
+        const capitalSpan = document.getElementById('capital');
+
+        // Define a JavaScript object to store country-capital pairs
+        const countryCapitals = {
+            "USA": "Washington, D.C.",
+            "Canada": "Ottawa",
+            "UK": "London",
+            "France": "Paris",
+            "Germany": "Berlin"
+        };
+
+        // Add an event listener to the select element
+        countrySelect.addEventListener('change', function () {
+            const selectedCountry = countrySelect.value;
+            const capital = countryCapitals[selectedCountry];
+            
+            // Update the capital span with the selected country's capital
+            capitalSpan.textContent = capital;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title>forms creation</title>
+</head>
+<body>
+    <form>
+      <h2>User Data Collection Form</h3>
+        <label for="firstname">Enter first name:</label>
+        <input type="text" id="firstname">
+
+        <br> <br>
+
+        <label for="lastname">Enter last name:</label>
+        <input type="text" id="lastname">
+
+        <br>
+        <br>
+
+        <label for="subscribeButton">click here to subscribe:-></label>
+        <input type="submit" name="button1" id="subscribeButton" value="Subscribe">
+
+        <br>
+        <br>
+
+        <label for="radio1">Male</label>
+        <input type="radio" name="radio1" id="radio1" >
+        
+        <label for="checkbox1">Female</label>
+        <input type="checkbox" name="cb1" id="checkbox1" >
+        
+        
+        <label for="checkbox2">prefer not to say</label>
+        <input type="checkbox" name="raio1" id="checkbox2" >
+        <br>
+        <br>
+        
+        <label for="fileSelect1">upload pic(<50kb)> </label>
+        <input type="file" name="raio1" id="fileSelect1" >
+        <br>
+        <br>
+        
+        
+        <label for="fileSelect1">upload pic(<50kb)> </label>
+        <input type="image" name="imgbutton1"  alt="sinjo pic" src="sinjo.jpeg" >
+        <br>
+        <br>`
+
+           
+
+    </form>
+
+         
+</body>
+</html>
+
+
+<body>
+
+<h2>Checkboxes</h2>
+<p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br><br>
+  <input type="submit" value="Confirm">
+  
+    <br> <br>
+
+  <label for="cars">Choose a Car:</label>
+
+  <select id="cars" multiple>  <!-- multiple attribute laga dene se now you can select multiple values. -->
+    <option>maruti</option>
+    <option value="vivo" selected>vivo</option>  <!-- selected use for default declaration-->
+    <option>hero</option>
+    <option>toyota</option>
+  </select>
+
+<br> <br/>
+
+  <fieldset> <!-- for category wise division-->
+    <legend>Higher Education</legend>
+  <br/> <br/>
+  <label for="college">Enter your college name:</label>
+  <input type="text" id="college">
+  <br/> <br/>
+
+  <label for="dept">Enter your Branch name:</label>
+  <input type="text" id="dept">
+  <br/> <br/>
+
+  <label for="year">Enter your enrollment year:</label>
+  <input type="text" id="year">
+  <br> <br/>
+  </fieldset>
+
+  <br/><br/>
+  <label for="textArea1">Your Academic journey</label>
+  <br>
+  <textarea name="journey" id="textArea1" cols="50" rows="7
+  "></textarea>
+  
+  <br/> <br/>
+  <input type="submit" id="finalSubmit" name="finalSubmit" value="continue">
+</form> 
+
+</body>

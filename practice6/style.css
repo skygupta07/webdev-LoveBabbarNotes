@@ -1,0 +1,24 @@
+*{
+    text-align: start;
+}
+
+
+
+
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display:flex;
+    justify-content: center;   /*for alignment across the main axis(x axis) */
+    align-items: center;       /*for alignment across the cross axis */
+}
+
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkolivegreen;
+}
+

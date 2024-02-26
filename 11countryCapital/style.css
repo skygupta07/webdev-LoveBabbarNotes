@@ -1,0 +1,25 @@
+
+body{
+     font-family: Arial, sans-serif;
+     background-image: https://img.jagranjosh.com/images/2023/February/622023/total-countries-in-the-world.jpg;
+}
+
+
+#capital {
+            color: #333;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+
+#box{
+    height:300px;
+    width:300px;
+    border:2px solid black;
+    background-color: deepskyblue;
+    
+}
+
+
+
+   
